@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Poppin';
+    src: url('/fonts/Poppins-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Poppin';
+    src: url('/fonts/Poppins-Medium.ttf') format('truetype');
+    font-style: bold;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'EBGaramond';
+    src: url('/fonts/EBGaramond-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+*{
+    font-family: 'Poppin';
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppin';
+    background-color: #f8f6f1;
+}
+
+h2{
+    font-family: 'Poppin';
+}
+
+span{
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #857A6E; 
+}
+input,select{
+    padding: 2px !important;
+    text-align: left;
+    font-size: 0.3rem;
+    color: #857A6E;
+    background-color: #f8f6f1 !important;
+    border: 1px solid #857A6E;;
+}
+
+/* .form-control{
+    background-color: red !important;
+} */
+
+input::placeholder{
+    padding: 5px !important;
+    text-align: left;
+    color: #857A6E !important;
+}
+
+.row{
+    margin: 1rem;
+}
+
+button {
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #5B463D;
+    font-size:  0.8rem;
+    border-radius: 10px;
+    padding: 4px 8px;
+}
+
+button a{
+    text-decoration: none;
+    color: #5B463D;
+    font-size:  0.8rem;;
+    border-radius: 5px;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "galeriafonlaura",
+  "version": "1.0.0",
+  "description": "galeria fon laura",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.10.0",
+    "nodemon": "^2.0.21",
+    "tailwindcss-animated": "^1.0.1"
+  }
+}

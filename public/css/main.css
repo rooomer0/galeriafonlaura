@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Poppin';
+    src: url('/fonts/Poppins-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Poppin';
+    src: url('/fonts/Poppins-Medium.ttf') format('truetype');
+    font-style: bold;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'EBGaramond';
+    src: url('/fonts/EBGaramond-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppin';
+    background-color: #f8f6f1;
+}
+
+.main-text{
+  margin-top: 20%;
+  font-family: 'EBGaramond';
+  font-weight: 200;
+  color: #5B463D;
+  width: 100%;
+  text-align: center;
+}
+
+.main-text button{
+    border: none;
+    border-bottom: 1px solid #5B463D;
+    background-color: #f8f6f1;
+    color: #5B463D;
+    margin: 3px;
+    font-size: larger;
+ /*    font-family: Poppin;
+    font-size: small; */
+}
+
+.main-text button a{
+    text-decoration: none;
+    color: #5B463D;
+}
+
+h1{
+    margin-bottom: 20%;
+}
+
+#containerSubirFoto{
+    overflow: scroll
+}
+
+.imgContainer{
+    width: 30%;
+    height: 30%;
+    display: inline-block;
+}
+
+.imgDesc{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
