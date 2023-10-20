@@ -34,7 +34,7 @@ $(document).ready(function () {
         const request = new XMLHttpRequest();
         request.open("POST", "https://galeriafonlaura.onrender.com/upload");
         request.send(new FormData(formElement));
-        console.log("enviado")
-        location.reload();
+        window.location.href = "https://galeriafonlaura.onrender.com/";
     })
+    
 });
