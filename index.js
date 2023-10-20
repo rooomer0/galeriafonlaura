@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express();
+const fileUpload = require('express-fileupload');
 const mongoose = require("mongoose")
 const bodyParser = require("body-parser");
 
@@ -41,5 +42,8 @@ app.listen(8080, () => {
     console.log("boda-web switched on")
 })
 
+
+
+ 
 
 
