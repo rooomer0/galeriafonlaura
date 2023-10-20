@@ -1,17 +1,23 @@
 $(document).ready(function () {
     $("#containerDescubre").hide();
+    $("#btnDescubre").toggleClass("activo")
     $("#btnSubirFoto").click(function () {
         $("#containerSubirFoto").toggle();
         $("#containerDescubre").toggle();
         $("#btnSubirFoto").prop('disabled', true);
+        $("#btnSubirFoto").toggleClass("activo")
         $("#btnDescubre").prop('disabled', false);
+        $("#btnDescubre").toggleClass("activo")
     });
 
     $("#btnDescubre").click(function () {
         $("#containerSubirFoto").toggle();
         $("#containerDescubre").toggle();
         $("#btnDescubre").prop('disabled', true);
+        $("#btnDescubre").toggleClass("activo")
         $("#btnSubirFoto").prop('disabled', false);
+        $("#btnSubirFoto").toggleClass("activo")
+        location.reload();
     });
 
     $.get("https://galeriafonlaura.onrender.com/upload", function (data) {
@@ -34,7 +40,6 @@ $(document).ready(function () {
         const request = new XMLHttpRequest();
         request.open("POST", "https://galeriafonlaura.onrender.com/upload");
         request.send(new FormData(formElement));
-        window.location.href = "https://galeriafonlaura.onrender.com/";
     })
     
 });
