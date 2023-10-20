@@ -73,3 +73,13 @@ h1{
 .activo{
     font-weight: bold;
 }
+
+#containerDescubre , #containerSubirFoto{
+    margin-top: 3%;
+}
+
+#boton{
+    margin-top: 3%;
+    border: 1px solid #5B463D;
+    border-radius: 1px;
+}
