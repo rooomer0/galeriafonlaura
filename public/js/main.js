@@ -21,7 +21,7 @@ $(document).ready(function () {
         location.reload();
     });
 
-    $.get("http://localhost:8080/upload", function (data) {
+    $.get("https://galeriafonlaura.onrender.com/upload", function (data) {
 
         for (let index = 0; index < data.data.length; index++) {
             const element = data.data[index];
@@ -39,7 +39,7 @@ $(document).ready(function () {
     $("#boton").click(function(){
         const formElement = document.querySelector("#myFile");
         const request = new XMLHttpRequest();
-        request.open("POST", "http://localhost:8080/upload");
+        request.open("POST", "https://galeriafonlaura.onrender.com/upload");
         request.send(new FormData(formElement));
         Swal.fire('¡Foto subida!')
        $("#archivoInput").val("")
